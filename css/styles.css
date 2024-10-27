@@ -95,13 +95,50 @@ body {
     justify-content: space-around;
     padding: 16px;
 
+    h2 {
+        margin: 16px 0;
+    }
+
+
+}
+
+.form-container {
+
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+
     form {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 16px;
+    }
+
+    input {
+
+        height: 38px;
+        border-radius: 10px;
+        padding-left: 8px;
+    }
+
+    button {
+        margin: 16px 0;
     }
 }
 
+hr {
+    margin: 16px 0;
+    padding: 0;
+    border: solid 5 black;
+}
+
+
+.social-media {
+    img {
+        width: 38px;
+        height: 38px;
+    }
+}
 
 
 /* Media Querys */
