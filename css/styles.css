@@ -157,6 +157,7 @@ body {
     .create-account-text {
         display: flex;
         align-items: center;
+        margin: 1rem 0;
 
         hr {
             flex: 1;
