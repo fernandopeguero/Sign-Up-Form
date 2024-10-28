@@ -135,6 +135,17 @@ body {
         gap: 16px;
     }
 
+    h3 {
+        font-size: 2rem;
+        padding-bottom: 1.125rem;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
     input {
 
         height: 38px;
