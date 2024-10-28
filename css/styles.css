@@ -122,6 +122,7 @@ body {
 .logo-container {
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     h1 {
@@ -214,6 +215,10 @@ hr {
         height: 90%;
         width: clamp(80%, 90%, 1350px);
 
+    }
+
+    .logo-container {
+        justify-content: start;
     }
 
 }
