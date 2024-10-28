@@ -127,6 +127,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
 
     h1 {
         display: inline-block;
@@ -136,7 +137,7 @@ body {
 
 .form-container {
 
-    width: 350px;
+    width: clamp(150px, 300px, 350px);
     margin: 0 auto;
     text-align: center;
 
