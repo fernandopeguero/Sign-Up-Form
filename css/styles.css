@@ -76,7 +76,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    /* color: var(--text-color); */
+
 
 
     h1 {
@@ -146,6 +146,21 @@ body {
         gap: 1rem;
     }
 
+    .create-account-text {
+        display: flex;
+        align-items: center;
+
+        hr {
+            flex: 1;
+        }
+
+        h4 {
+            padding: 0 .5rem
+        }
+    }
+
+
+
     input {
 
         height: 38px;
@@ -190,4 +205,5 @@ hr {
     .container {
         flex-direction: row;
     }
+
 }
