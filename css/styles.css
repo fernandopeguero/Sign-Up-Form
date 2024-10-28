@@ -180,6 +180,13 @@ body {
         padding-left: 8px;
     }
 
+    input:focus:valid {
+        border: solid 5px var(--success-input-color);
+    }
+
+    input:focus:invalid {
+        border: solid 5px var(--warning-input-color);
+    }
 
     button {
         margin-top: 2rem;
