@@ -4,6 +4,9 @@
     --text-bg-color: rgba(206, 227, 221, 0.8);
     --btn-bg-color: #1a91e1;
     --btn-bg-color-darker: #6c8ca1;
+
+    --warning-input-color: #FF6500;
+    --success-input-color: #73EC8B;
 }
 
 html {
@@ -176,6 +179,7 @@ body {
         border-radius: 10px;
         padding-left: 8px;
     }
+
 
     button {
         margin-top: 2rem;
