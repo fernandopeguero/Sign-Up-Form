@@ -212,7 +212,8 @@ hr {
     .container {
         flex-direction: row;
         height: 90%;
-        width: 90%;
+        width: clamp(80%, 90%, 1350px);
+
     }
 
 }
