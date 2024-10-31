@@ -83,6 +83,7 @@ body {
     background-image: url(../img/paradise-island.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
 
@@ -234,5 +235,6 @@ hr {
     .logo-container {
         justify-content: start;
     }
+
 
 }
